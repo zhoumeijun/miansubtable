@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actions>
+    <action>
+        <name>development.testtable.savemainEntity</name>
+        <label>保存</label>
+        <clazz>nccloud.development.testtable.mainentity.action.MainEntitySaveAction</clazz>
+    </action>
+    <action>
+        <name>development.testtable.deletemainEntity</name>
+        <label>删除</label>
+        <clazz>nccloud.development.testtable.mainentity.action.MainEntityDeleteAction</clazz>
+    </action>
+    <action>
+        <name>development.testtable.querypagemainEntity</name>
+        <label>列表查询</label>
+        <clazz>nccloud.development.testtable.mainentity.action.MainEntityQueryListAction
+        </clazz>
+    </action>
+    <action>
+        <name>development.testtable.querypagebypkmainEntity</name>
+        <label>分页查询</label>
+        <clazz>nccloud.development.testtable.mainentity.action.MainEntityQueryByPksAction
+        </clazz>
+    </action>
+    <action>
+        <name>development.testtable.querycardmainEntity</name>
+        <label>卡片查询</label>
+        <clazz>nccloud.development.testtable.mainentity.action.MainEntityQueryCardAction
+        </clazz>
+    </action>
+    <action>
+        <name>development.testtable.commitmainEntity</name>
+        <label>提交单据</label>
+        <clazz>nccloud.development.testtable.mainentity.action.MainEntityCommitAssignAction
+        </clazz>
+    </action>
+    <action>
+        <name>development.testtable.uncommitmainEntity</name>
+        <label>收回单据</label>
+        <clazz>nccloud.development.testtable.mainentity.action.MainEntityUnCommitAssignAction
+        </clazz>
+    </action>
+
+</actions>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding='gb2312'?>
+<module name="development">
+  <public>
+        <component remote="true" singleton="true"  tx="CMT">
+          <interface>nccloud.itf.development.testtable.IMainentityMaintain</interface>
+          <implementation>nccloud.impl.development.testtable.MainentityMaintainImpl</implementation>
+        </component>
+  </public> 
+</module> 

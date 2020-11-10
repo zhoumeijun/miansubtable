@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<authorizes>
+    <authorize>
+        <!-- 应用编码 -->
+        <appcode>91H10101,91H10101A</appcode>
+        <actions>
+            <!-- 卡片查询 -->
+            <action>development.testtable.querycardmainEntity</action>
+            <!-- 列表查询 -->
+            <action>development.testtable.querypagemainEntity</action>
+            <!-- pk查询 -->
+            <action>development.testtable.querypagebypkmainEntity</action>
+            <!-- 保存 -->
+            <action>development.testtable.savemainEntity</action>
+            <!-- 删除 -->
+            <action>development.testtable.deletemainEntity</action>
+            <!-- 提交 -->
+            <action>development.testtable.commitmainEntity</action>
+            <!-- 撤回 -->
+            <action>development.testtable.uncommitmainEntity</action>
+        </actions>
+    </authorize>
+</authorizes>

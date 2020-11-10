@@ -1,0 +1,56 @@
+[
+{
+"dr": "0",
+"menuitemcode": "91",
+"menuitemname": "development",
+"pk_menu": "1004Z510000000000FFL",
+"pk_menuitem": "PK_M01",
+"ts": "2020-11-10 09:14:04"
+},
+{
+"dr": "0",
+"menuitemcode": "91H1",
+"menuitemname": "development",
+"parentcode": "91",
+"pk_menu": "1004Z510000000000FFL",
+"resid": "",
+"pk_menuitem": "PK_M01",
+"ts": "2020-11-10 09:14:04"
+},
+{
+"dr": "0",
+"menuitemcode": "91H101",
+"menuitemname": "testtable",
+"parentcode": "91H1",
+"resid": "",
+"pk_menu": "1004Z510000000000FFL",
+"pk_menuitem": "PK_M02",
+"ts": "2020-11-10 09:14:04"
+},
+  {
+    "appcode": "91H10101",
+    "appid": "PK_APP",
+    "dr": "0",
+    "menudes": "主子表",
+    "menuitemcode": "91H10101",
+    "menuitemname": "主子表",
+    "parentcode": "91H101",
+    "resid": "",
+    "pk_menu": "1004Z510000000000FFL",
+    "pk_menuitem": "PK_M03",
+    "ts": "2020-11-10 09:14:04"
+},
+{
+    "appcode": "91H10101A",
+    "appid": "PK_APP1",
+    "dr": "0",
+    "menudes": "主子表",
+    "menuitemcode": "91H10101A",
+    "menuitemname": "主子表审批",
+    "parentcode": "91H101",
+    "resid": "",
+    "pk_menu": "1004Z510000000000FFL",
+    "pk_menuitem": "PK_M03",
+    "ts": "2020-11-10 09:14:04"
+}
+]

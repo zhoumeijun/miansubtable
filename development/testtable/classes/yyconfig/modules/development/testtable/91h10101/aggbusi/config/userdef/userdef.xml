@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<userdefs>
+        <userdef>
+                <name>development.mainEntity</name>
+                <prefix>vdef</prefix>
+        </userdef>
+        <userdef>
+                <name>development.subEntity</name>
+                <prefix>vdef</prefix>
+        </userdef>
+</userdefs>
